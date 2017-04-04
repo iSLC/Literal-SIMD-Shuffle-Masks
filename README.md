@@ -1,5 +1,5 @@
 # Literal-SIMD-Shuffle-Masks
-C++11 User defined literals for intuitive SIMD shuffle masks.
+C++11 User defined literals for intuitive SIMD shuffle masks. [Details](https://islcblog.wordpress.com/2017/04/04/cpp11-user-defined-literals-for-intuitive-simd-shuffle-masks/)
 
 # Example
 
