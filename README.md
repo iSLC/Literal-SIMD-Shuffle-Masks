@@ -1,5 +1,5 @@
 # Literal-SIMD-Shuffle-Masks
-C++11 User defined literals for intuitive SIMD shuffle masks. [Details](https://islcblog.wordpress.com/2017/04/04/cpp11-user-defined-literals-for-intuitive-simd-shuffle-masks/)
+C++14 User defined literals for intuitive SIMD shuffle masks. [Details](https://islcblog.wordpress.com/2017/04/04/cpp14-user-defined-literals-for-intuitive-simd-shuffle-masks/)
 
 # Example
 
@@ -43,3 +43,7 @@ Output:
 0x55
 0x55
 ```
+
+# Notes
+
+* Currently it uses a GCC extension (_supported by Clang as well_) in order to treat string literals as a series of characters.
