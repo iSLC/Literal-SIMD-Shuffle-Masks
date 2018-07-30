@@ -1,5 +1,3 @@
-// Description: https://islcblog.wordpress.com/2017/04/04/cpp11-user-defined-literals-for-intuitive-simd-shuffle-masks/
-
 // Flexible structure that can be specialized to assign a character to a certain element in a vector.
 template < char C > struct CharToShuffleIndex;
 
